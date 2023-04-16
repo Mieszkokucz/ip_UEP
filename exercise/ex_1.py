@@ -4,7 +4,7 @@ def hello(a: str) -> str:
 
 
 print("Example")
-print(hello("Ola"))
+print(hello("Mieszko"))
 
 assert hello("Ola") == "Hello Ola"
 assert hello("Zuzia") == "Hello Zuzia"
