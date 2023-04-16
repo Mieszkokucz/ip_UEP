@@ -1,3 +1,6 @@
+# import
+from math import pi
+
 # trojkat
 
 a = 10
@@ -45,7 +48,6 @@ print("Obwod rombu wynosi " + str(obwod) + ", zas pole wynisi " + str(pole) + ".
 
 
 # koło
-from math import pi
 
 r = 10
 
