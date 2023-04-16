@@ -43,3 +43,13 @@ pole = a*h
 
 print("Obwod rombu wynosi " + str(obwod) + ", zas pole wynisi " + str(pole) + ".")
 
+
+# koło
+from math import pi
+
+r = 10
+
+obwod = 2 * pi * r
+pole = pi * r ** 2
+
+print("Obwod koła wynosi " + str(obwod) + ", zas pole wynisi " + str(pole) + ".")
