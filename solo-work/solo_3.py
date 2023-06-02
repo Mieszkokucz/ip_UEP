@@ -57,15 +57,15 @@ class Pamietnik:
     def zamknij_pamietnik(self):
         self.czy_otwarty = False
 
-    def dodaj_zawartosc(self, numer_stronu, nowa_zawartosc):
+    def dodaj_zawartosc(self, numer_strony, nowa_zawartosc):
         if self.czy_otwarty == False:
-            print("Pamietnik jest zamknięty,aby dodac zawartosc musisz go otworzyc wposujac odpowiedni pin")
+            print("Pamietnik jest zamknięty,aby dodac zawartosc musisz go otworzyc wpisujac odpowiedni pin")
         else:
-            self.zawartosc_stron[numer_stronu].append(nowa_zawartosc)
+            self.zawartosc_stron[numer_strony].append(nowa_zawartosc)
 
     def wyswietl_zawartosc_strony(self, numer_strony):
         if self.czy_otwarty == False:
-            print("Pamietnik jest zamknięty,aby dodac zawartosc musisz go otworzyc wposujac odpowiedni pin")
+            print("Pamietnik jest zamknięty,aby dodac zawartosc musisz go otworzyc wpisujac odpowiedni pin")
         else:
             print(f"Strona {numer_strony}:")
             print(self.zawartosc_stron[numer_strony])
@@ -84,3 +84,4 @@ Pamietnik1.wyswietl_zawartosc_strony(1)
 Pamietnik1.zamknij_pamietnik()
 
 Pamietnik1.wyswietl_zawartosc_strony(1)
+
